@@ -1,0 +1,135 @@
+﻿<Controls:MetroWindow x:Class="MailMan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:MailMan"
+        mc:Ignorable="d" ShowTitleBar="True" Height="700" Width="1200"
+        Title="Mail Man" MinHeight="500" MinWidth="730"
+        TitleCharacterCasing="Normal" 
+        ShowIconOnTitleBar="True"  WindowStartupLocation="CenterScreen"
+        BorderBrush="#E1BEE7" GlowBrush="#E1BEE7" 
+         >
+    <Window.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="groupBoxHeaderTemplate">
+                <!--The binding represet Header="Binding Value"-->
+                <TextBlock FontSize="16" FontWeight="Bold" Foreground="Black" Text="{Binding}"></TextBlock>
+            </DataTemplate>
+            <Style x:Key="groupBoxStyle_Default" TargetType="GroupBox" BasedOn="{x:Null}">
+                <Setter Property="Margin" Value="2"></Setter>
+                <Setter Property="Padding" Value="2"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="1"/>
+                <GradientStop Color="#E1BEE7" Offset="0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.1*"/>
+            <RowDefinition Height="2.5*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="Connection Parameters:" Grid.Row="0"  
+                  HeaderTemplate="{StaticResource groupBoxHeaderTemplate}" 
+                      Style="{StaticResource groupBoxStyle_Default}"
+                  Grid.Column="0" Margin="5,5,5,5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.4*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.4*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.4*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Port Name:" Grid.Column="0" Grid.Row="0"
+                           FontSize="14" VerticalAlignment="Center"
+                           HorizontalAlignment="Right" Margin="10,0,0,0" />
+                <ComboBox Name="portNameComboBox" Grid.Column="1" Grid.Row="0"
+                          VerticalAlignment="Center" Margin="10,0,10,0"/>
+
+                <TextBlock Text="Buad Rate:" Grid.Column="2" Grid.Row="0"
+                           FontSize="14" VerticalAlignment="Center"
+                           HorizontalAlignment="Right" Margin="10,0,0,0" />
+                <ComboBox Name="buadRateComboBox" Grid.Column="3" Grid.Row="0"
+                          VerticalAlignment="Center" Margin="10,0,10,0"/>
+
+                <TextBlock Text="Parity Case:" Grid.Column="4" Grid.Row="0"
+                           FontSize="14" VerticalAlignment="Center"
+                           HorizontalAlignment="Right" Margin="10,0,0,0" />
+                <ComboBox Name="parityCaseComboBox" Grid.Column="5" Grid.Row="0"
+                          VerticalAlignment="Center" Margin="10,0,10,0"/>
+                
+                <TextBlock Text="Stop Bits:" Grid.Column="0" Grid.Row="1"
+                           FontSize="14" VerticalAlignment="Center" 
+                           HorizontalAlignment="Right" Margin="10,0,0,0" />
+                <ComboBox Name="stopBitsComboBox" Grid.Column="1" Grid.Row="1"
+                          VerticalAlignment="Center" Margin="10,0,10,0"/>
+
+                <TextBlock Text="Data Bits:" Grid.Column="2" Grid.Row="1"
+                           FontSize="14" VerticalAlignment="Center"
+                           HorizontalAlignment="Right" Margin="10,0,0,0" />
+                <ComboBox Name="dataBitsComboBox" Grid.Column="3" Grid.Row="1"
+                          VerticalAlignment="Center" Margin="10,0,10,0"/>
+
+
+                <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="6">
+                    <TextBlock Text="Connection Status:" Grid.Column="1" Grid.Row="2"
+                       FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <TextBlock Name="connectionStatusTextBlock" Grid.Column="2"
+                           FontSize="14" Grid.Row="2" VerticalAlignment="Center" 
+                           HorizontalAlignment="Center" Margin="270,0,10,0" Text="Disconnected"/>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="6">
+                <Button Name="ConnectButton" Content="Connect" 
+                         FontSize="15" HorizontalAlignment="Center"
+                        Margin="0,0,0,0" Click="ConnectButton_Click"/>
+                </Grid>
+            </Grid>
+        </GroupBox>
+        <ScrollViewer Grid.Row="1" >
+            <StackPanel Name="massegesPanel" Orientation="Vertical" >
+                <TextBlock Name="messagesTextBlock" FontSize="14"  />
+                <!--<Image Margin="12,12,16,71" Name="sentImage" 
+                 Height="100" Width="200"  />-->
+            </StackPanel>
+        </ScrollViewer>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Name="massegeTextBox" Grid.Column="0" FontSize="15"/>
+            <Button Name="sendButton" Grid.Column="1"  Click="sendButton_Click"
+                    Style="{DynamicResource MetroCircleButtonStyle}"
+                    Content="Send" FontSize="20" FontWeight="Bold">
+                <!--<Ellipse Width="100" Height="100"
+               Fill="{DynamicResource BlackBrush}" Stretch="Fill">
+                    <Ellipse.OpacityMask>
+                        <VisualBrush Stretch="Fill"
+                         Visual="{DynamicResource appbar_message_send}"/>
+                    </Ellipse.OpacityMask>
+                </Ellipse>-->
+            </Button>
+            <Button Name="sendImageButton" Grid.Column="2"  Click="sendImageButton_Click"
+                    Style="{DynamicResource MetroCircleButtonStyle}"
+                    Content="SendImage" FontSize="20" FontWeight="Bold"></Button>
+        </Grid>
+    </Grid>
+</Controls:MetroWindow>

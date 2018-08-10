@@ -1,0 +1,66 @@
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\bin\Debug\MailMan.exe.config
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\bin\Debug\MailMan.exe
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\bin\Debug\MailMan.pdb
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\bin\Debug\MahApps.Metro.dll
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\bin\Debug\MahApps.Metro.pdb
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\bin\Debug\MahApps.Metro.xml
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\MailMan.csprojResolveAssemblyReference.cache
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\Resources\Icons.baml
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\MainWindow.g.cs
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\App.g.cs
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\MailMan_MarkupCompile.cache
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\MailMan_MarkupCompile.lref
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\App.baml
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\MainWindow.baml
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\MailMan.g.resources
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\MailMan.Properties.Resources.resources
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\MailMan.csproj.GenerateResource.Cache
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\MailMan.exe
+C:\Users\informatic\Documents\Visual Studio 2015\Projects\MailMan\MailMan\obj\Debug\MailMan.pdb
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\bin\Debug\MailMan.exe.config
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\bin\Debug\MailMan.exe
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\bin\Debug\MailMan.pdb
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\bin\Debug\MahApps.Metro.dll
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\bin\Debug\MahApps.Metro.pdb
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\bin\Debug\MahApps.Metro.xml
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\MailMan.csprojResolveAssemblyReference.cache
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\Resources\Icons.baml
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\MainWindow.g.cs
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\App.g.cs
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\MailMan_MarkupCompile.cache
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\MailMan_MarkupCompile.lref
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\App.baml
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\MainWindow.baml
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\MailMan.g.resources
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\MailMan.Properties.Resources.resources
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\MailMan.csproj.GenerateResource.Cache
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\MailMan.exe
+C:\Users\AbdilFattah\Desktop\MailMan\MailMan\obj\Debug\MailMan.pdb
+C:\Users\informatic\Desktop\MailMan\MailMan\bin\Debug\MailMan.exe.config
+C:\Users\informatic\Desktop\MailMan\MailMan\bin\Debug\MailMan.exe
+C:\Users\informatic\Desktop\MailMan\MailMan\bin\Debug\MailMan.pdb
+C:\Users\informatic\Desktop\MailMan\MailMan\bin\Debug\MahApps.Metro.dll
+C:\Users\informatic\Desktop\MailMan\MailMan\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\informatic\Desktop\MailMan\MailMan\bin\Debug\MahApps.Metro.pdb
+C:\Users\informatic\Desktop\MailMan\MailMan\bin\Debug\MahApps.Metro.xml
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\MailMan.csprojResolveAssemblyReference.cache
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\Resources\Icons.baml
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\MainWindow.g.cs
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\App.g.cs
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\MailMan_MarkupCompile.cache
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\MailMan_MarkupCompile.lref
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\App.baml
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\MainWindow.baml
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\MailMan.g.resources
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\MailMan.Properties.Resources.resources
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\MailMan.csproj.GenerateResource.Cache
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\MailMan.exe
+C:\Users\informatic\Desktop\MailMan\MailMan\obj\Debug\MailMan.pdb
+D:\MailMan\MailMan\bin\Debug\MailMan.exe.config
+D:\MailMan\MailMan\obj\Debug\MailMan.exe
+D:\MailMan\MailMan\obj\Debug\MailMan.pdb
